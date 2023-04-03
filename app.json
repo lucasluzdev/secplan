@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "segurosAPP",
+    "slug": "segurosAPP",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "segurosAPP"
+}

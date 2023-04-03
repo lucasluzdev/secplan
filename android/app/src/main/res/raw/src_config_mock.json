@@ -1,0 +1,322 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Lucas Luz",
+      "birth": "18/01/1998",
+      "genre": "M",
+      "email": "lucasluzdev@gmail.com",
+      "password": "012388",
+      "phone": "(11) 4149-9200",
+      "cellphone": "(11) 96468-2367"
+    }
+  ],
+  "secures": [
+    {
+      "id": 1,
+      "plan": "Seguro automotivo",
+      "holder": "Sul América",
+      "img": "../assets/logos/sulamerica.png",
+      "description": "Seguro automotivo com 100% de cobertura para furto, roubo, dano ou perda de veículo",
+      "value": "R$ 650,00",
+      "paymentPeriod": "Mês",
+      "link": "https://sulamerica.com.br/plano",
+      "contact": "Carlos Silva"
+    },
+    {
+      "id": 2,
+      "plan": "Previdência privada",
+      "holder": "Bradesco seguros",
+      "img": "../assets/logos/bradesco.png",
+      "description": "Prievidência privada para garantir o seu conforto em sua aposentadoria",
+      "value": "R$ 650,00",
+      "paymentPeriod": "Mês",
+      "link": "https://sulamerica.com.br/plano",
+      "contact": "André Matos"
+    },
+    {
+      "id": 3,
+      "plan": "Plano de saúde",
+      "holder": "Unimed",
+      "img": "../assets/logos/unimed.png",
+      "description": "Plano de saúde para garantir o bem estar seu e de sua família.",
+      "value": "R$ 650,00",
+      "paymentPeriod": "Mês",
+      "link": "https://sulamerica.com.br/plano",
+      "contact": "Josué Corrêa"
+    },
+    {
+      "id": 4,
+      "plan": "Seguro residencial",
+      "holder": "Allianz",
+      "img": "../assets/logos/allianz.png",
+      "description": "Seguro residencial para segurança e conforto da sua família!",
+      "value": "R$ 650,00",
+      "paymentPeriod": "Mês",
+      "link": "https://sulamerica.com.br/plano",
+      "contact": "Rafael Lima"
+    }
+  ],
+  "securates": [
+    {
+      "id": 1,
+      "holder": "Sul América - Seguros de pessoas e previdência",
+      "img": "../assets/logos/sulamerica.png",
+      "branches": [
+        "Previdência Privada",
+        "Seguro de vida",
+        "Seguro residencial"
+      ],
+      "plans": [
+        {
+          "id": 1,
+          "plan": "Seguro automotivo",
+          "holder": "Sul América",
+          "description": "Seguro automotivo com 100% de cobertura para furto, roubo, dano ou perda de veículo",
+          "value": "R$ 650,00",
+          "paymentPeriod": "Mês",
+          "link": "https://sulamerica.com.br/plano",
+          "contact": "José Pereira"
+        },
+        {
+          "id": 2,
+          "plan": "Seguro odontológico",
+          "holder": "Sul América",
+          "img": "../assets/logos/sulamerica.png",
+          "description": "Plano odontológico para garantir sua saúde bucal, e belos sorrisos!",
+          "value": "R$ 650,00",
+          "paymentPeriod": "Mês",
+          "link": "https://sulamerica.com.br/plano",
+          "contact": "Carlos Silva"
+        }
+      ],
+      "states": [
+        "SP",
+        "RJ"
+      ]
+    },
+    {
+      "id": 2,
+      "holder": "Bradesco seguros",
+      "img": "../assets/logos/bradesco.png",
+      "branches": [
+        "Previdência Privada",
+        "Seguro de vida",
+        "Seguro residencial"
+      ],
+      "plans": [
+        {
+          "id": 3,
+          "plan": "Seguro automotivo",
+          "holder": "Bradesco seguros",
+          "img": "../assets/logos/bradesco.png",
+          "description": "Seguro automotivo com 100% de cobertura para furto, roubo, dano ou perda de veículo",
+          "value": "R$ 650,00",
+          "paymentPeriod": "Mês",
+          "link": "https://sulamerica.com.br/plano",
+          "contact": "Paula Silva"
+        },
+        {
+          "id": 4,
+          "plan": "Seguro odontológico",
+          "holder": "Bradesco seguros",
+          "img": "../assets/logos/bradesco.png",
+          "description": "Plano odontológico para garantir sua saúde bucal, e belos sorrisos!",
+          "value": "R$ 650,00",
+          "paymentPeriod": "Mês",
+          "link": "https://sulamerica.com.br/plano",
+          "contact": "Carolina Ramos"
+        }
+      ],
+      "states": [
+        "SP", "ES", "MG", "RS"
+      ]
+    },
+    {
+      "id": 3,
+      "holder": "Unimed",
+      "img": "../assets/logos/unimed.png",
+      "branches": [
+        "Previdência Privada",
+        "Seguro de vida",
+        "Seguro residencial"
+      ],
+      "plans": [
+        {
+          "id": 5,
+          "plan": "Seguro automotivo",
+          "holder": "Unimed",
+          "img": "../assets/logos/unimed.png",
+          "description": "Seguro automotivo com 100% de cobertura para furto, roubo, dano ou perda de veículo",
+          "value": "R$ 650,00",
+          "paymentPeriod": "Mês",
+          "link": "https://sulamerica.com.br/plano",
+          "contact": "Sabrina Gomes"
+        },
+        {
+          "id": 6,
+          "plan": "Seguro odontológico",
+          "holder": "Unimed",
+          "img": "../assets/logos/unimed.png",
+          "description": "Plano odontológico para garantir sua saúde bucal, e belos sorrisos!",
+          "value": "R$ 650,00",
+          "paymentPeriod": "Mês",
+          "link": "https://sulamerica.com.br/plano",
+          "contact": "Carlos Silva"
+        }
+      ],
+      "states": [
+        "SP", "MG"
+      ]
+    },
+    {
+      "id": 3,
+      "holder": "Allianz",
+      "img": "../assets/logos/allianz.png",
+      "branches": [
+        "Previdência Privada",
+        "Seguro de vida",
+        "Seguro residencial"
+      ],
+      "plans": [
+        {
+          "id": 5,
+          "plan": "Seguro automotivo",
+          "holder": "Allianz",
+          "img": "../assets/logos/allianz.png",
+          "description": "Seguro automotivo com 100% de cobertura para furto, roubo, dano ou perda de veículo",
+          "value": "R$ 650,00",
+          "paymentPeriod": "Mês",
+          "link": "https://sulamerica.com.br/plano",
+          "contact": "Leonardo Matias"
+        },
+        {
+          "id": 6,
+          "plan": "Seguro odontológico",
+          "holder": "Allianz",
+          "img": "../assets/logos/allianz.png",
+          "description": "Plano odontológico para garantir sua saúde bucal, e belos sorrisos!",
+          "value": "R$ 650,00",
+          "paymentPeriod": "Mês",
+          "link": "https://sulamerica.com.br/plano",
+          "contact": "Francisco Marques"
+        }
+      ],
+      "states": [
+        "SP", "MG"
+      ]
+    }
+  ],
+  "custom": [
+    {
+      "id": 1,
+      "plan": "Seguro familia 1",
+      "planDetails": [
+        {
+          "id": 1,
+          "type": "Plano residencial",
+          "coverage": 100,
+          "description": "Plano para garantia da manutenção de minha residência"
+        },
+        {
+          "id": 2,
+          "type": "Plano de saúde",
+          "coverage": 100,
+          "description": "Plano para garantia da saude de meus familiares"
+        },
+        {
+          "id": 3,
+          "type": "Seguro de vida",
+          "coverage": 100,
+          "description": "Plano para garantia do bem estar de meus familiares caso algo aconteça comigo."
+        }
+      ],
+      "estimatedValue": "R$ 2650,00",
+      "estimatedPaymentPeriod": "Mês"
+    },
+    {
+      "id": 2,
+      "plan": "Seguro para meu carro",
+      "planDetails": [
+        {
+          "id": 4,
+          "type": "Plano automotivo",
+          "coverage": 100,
+          "description": "Plano para garantia do meu automóvel"
+        },
+        {
+          "id": 5,
+          "type": "Plano de manutenção",
+          "coverage": 100,
+          "description": "Plano para garantia da manutenção do meu automóvel"
+        }
+      ],
+      "estimatedValue": "R$ 920,00",
+      "estimatedPaymentPeriod": "Mês"
+    }
+  ],
+  "saved": [
+    {
+      "id": 1,
+      "plan": "Seguro automotivo",
+      "holder": "Sul América",
+      "img": "../assets/logos/sulamerica.png",
+      "description": "Seguro automotivo com 100% de cobertura para furto, roubo, dano ou perda de veículo",
+      "value": "R$ 650,00",
+      "paymentPeriod": "Mês",
+      "link": "https://sulamerica.com.br/plano",
+      "contact": "Carlos Silva"
+    },
+    {
+      "id": 2,
+      "plan": "Previdência privada",
+      "holder": "Bradesco seguros",
+      "img": "../assets/logos/bradesco.png",
+      "description": "Prievidência privada para garantir o seu conforto em sua aposentadoria",
+      "value": "R$ 650,00",
+      "paymentPeriod": "Mês",
+      "link": "https://sulamerica.com.br/plano",
+      "contact": "André Matos"
+    },
+    {
+      "id": 3,
+      "plan": "Plano de saúde",
+      "holder": "Unimed",
+      "img": "../assets/logos/unimed.png",
+      "description": "Plano de saúde para garantir o bem estar seu e de sua família.",
+      "value": "R$ 650,00",
+      "paymentPeriod": "Mês",
+      "link": "https://sulamerica.com.br/plano",
+      "contact": "Josué Corrêa"
+    },
+    {
+      "id": 4,
+      "plan": "Seguro residencial",
+      "holder": "Allianz",
+      "img": "../assets/logos/allianz.png",
+      "description": "Seguro residencial para segurança e conforto da sua família!",
+      "value": "R$ 650,00",
+      "paymentPeriod": "Mês",
+      "link": "https://sulamerica.com.br/plano",
+      "contact": "Rafael Lima"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "title": "Nova seguradora disponível no APP!",
+      "description": "Veja os planos disponibilizados pela empresa Sul América, que acabou de ter seus planos adicionados em nosso aplicativo!",
+      "img": "",
+      "checked": false,
+      "redirectTo": ""
+    },
+    {
+      "id": 2,
+      "title": "Novas categorias de plano de seguros adicionadas no APP",
+      "description": "Veja os planos disponibilizados no nosso APP, para gerar seus contratos customizados, para garantir o seu conforto e de seus familiares!",
+      "img": "",
+      "checked": false,
+      "redirectTo": ""
+    }
+  ]
+}
